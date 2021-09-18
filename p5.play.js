@@ -3621,7 +3621,7 @@ function cameraPush() {
   if(!camera.active)
   {
     camera.active = true;
-    pInst.push();
+
     pInst.scale(camera.zoom);
     pInst.translate(-camera.position.x+pInst.width/2/camera.zoom, -camera.position.y+pInst.height/2/camera.zoom);
   }
@@ -3633,7 +3633,6 @@ function cameraPop() {
 
   if(pInst.camera.active)
   {
-    pInst.pop();
     pInst.camera.active = false;
   }
 }
