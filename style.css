@@ -1,0 +1,13 @@
+html, body {
+    margin: 0;
+}
+  
+canvas {
+  border: outset;
+  border-width: 5px;
+}
+
+p {
+  font-family: 'Brush Scrit MT';
+}
+  
